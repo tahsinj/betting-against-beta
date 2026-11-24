@@ -1,0 +1,4 @@
+,correlation,ours: mean (%/month),ours: Sharpe,AQR: mean (%/month),AQR: Sharpe,slope on AQR,intercept (%/month),months
+1931-2012,0.971,0.77,0.803,0.677,0.704,0.968,0.115,975
+2012-2025,0.94,0.722,0.941,0.518,0.739,1.029,0.189,165
+full sample,0.968,0.763,0.817,0.654,0.704,0.973,0.127,1140

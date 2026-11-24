@@ -1,0 +1,106 @@
+1929 510 stocks
+1930 528 stocks
+1931 594 stocks
+1932 654 stocks
+1933 660 stocks
+1934 663 stocks
+1935 649 stocks
+1936 649 stocks
+1937 656 stocks
+1938 677 stocks
+1939 716 stocks
+1940 730 stocks
+1941 735 stocks
+1942 753 stocks
+1943 763 stocks
+1944 764 stocks
+1945 765 stocks
+1946 785 stocks
+1947 805 stocks
+1948 840 stocks
+1949 887 stocks
+1950 921 stocks
+1951 944 stocks
+1952 961 stocks
+1953 972 stocks
+1954 982 stocks
+1955 972 stocks
+1956 970 stocks
+1957 962 stocks
+1958 962 stocks
+1959 967 stocks
+1960 981 stocks
+1961 969 stocks
+1962 988 stocks
+1963 1,010 stocks
+1964 1,036 stocks
+1965 1,740 stocks
+1966 1,763 stocks
+1967 1,756 stocks
+1968 1,715 stocks
+1969 1,731 stocks
+1970 1,773 stocks
+1971 1,881 stocks
+1972 2,022 stocks
+1973 2,096 stocks
+1974 2,159 stocks
+1975 4,000 stocks
+1976 4,190 stocks
+1977 4,077 stocks
+1978 3,931 stocks
+1979 3,861 stocks
+1980 3,778 stocks
+1981 3,739 stocks
+1982 3,694 stocks
+1983 3,847 stocks
+1984 4,015 stocks
+1985 3,887 stocks
+1986 4,156 stocks
+1987 4,201 stocks
+1988 4,167 stocks
+1989 4,478 stocks
+1990 4,637 stocks
+1991 4,585 stocks
+1992 4,426 stocks
+1993 4,431 stocks
+1994 4,540 stocks
+1995 4,714 stocks
+1996 5,026 stocks
+1997 5,109 stocks
+1998 4,999 stocks
+1999 5,003 stocks
+2000 4,813 stocks
+2001 4,538 stocks
+2002 4,474 stocks
+2003 4,391 stocks
+2004 4,196 stocks
+2005 3,981 stocks
+2006 3,821 stocks
+2007 3,687 stocks
+2008 3,621 stocks
+2009 3,559 stocks
+2010 3,535 stocks
+2011 3,368 stocks
+2012 3,205 stocks
+2013 3,140 stocks
+2014 3,091 stocks
+2015 3,010 stocks
+2016 2,965 stocks
+2017 3,012 stocks
+2018 3,004 stocks
+2019 2,954 stocks
+2020 2,974 stocks
+2021 3,034 stocks
+2022 3,067 stocks
+2023 3,121 stocks
+2024 3,361 stocks
+
+average by variant:
+                 bab  beta_L  beta_H   gross  nano_dollars  turnover    cost
+variant                                                                     
+bab           0.0074  0.7243  1.4956  2.1133        0.8097    0.3079  0.0029
+bab_equal     0.0072  0.7304  1.4759  2.1104        0.7884    0.3582  0.0032
+bab_ex_nano   0.0050  0.7756  1.4830  2.0028        0.1577    0.3070  0.0015
+bab_ols       0.0137  0.5788  1.3571  2.5637        1.0570    0.5544  0.0062
+bab_rank_cap  0.0030  0.7785  1.3921  2.0449        0.0337    0.2106  0.0006
+bab_value     0.0032  0.7701  1.4014  2.0602        0.0344    0.2958  0.0008

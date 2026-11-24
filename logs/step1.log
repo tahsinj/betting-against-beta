@@ -1,0 +1,27 @@
+loading daily CRSP...
+81,585,120 rows, 26,899 stocks
+  stock 0
+  stock 2,000
+  stock 4,000
+  stock 6,000
+  stock 8,000
+  stock 10,000
+  stock 12,000
+  stock 14,000
+  stock 16,000
+  stock 18,000
+  stock 20,000
+  stock 22,000
+  stock 24,000
+  stock 26,000
+
+saved 3,695,518 stock-months
+           beta_ts      beta_fp  beta_ols_raw     beta_ols
+count  2946197.000  2946197.000   3682785.000  3682785.000
+mean         1.033        1.020         0.805        0.883
+std          0.646        0.388         0.641        0.385
+min         -6.657       -3.594       -10.158       -5.695
+25%          0.571        0.742         0.344        0.606
+50%          0.951        0.971         0.746        0.847
+75%          1.386        1.232         1.190        1.114
+max          8.765        5.659        17.752       11.051

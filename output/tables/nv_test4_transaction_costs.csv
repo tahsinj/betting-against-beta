@@ -1,0 +1,5 @@
+,gross mean,turnover (%/yr),cost,net mean,t(net),% of gross lost,net FF5 alpha,t(FF5)
+BAB (FP rank weights),1.03,210.36,0.4,0.63,4.6,38.85,0.24,1.37
+BAB without bottom NYSE decile,0.69,206.3,0.16,0.53,3.9,23.41,0.12,0.92
+rank x market cap weights,0.51,133.36,0.06,0.45,2.98,12.1,0.12,0.78
+value weighted terciles,0.55,187.47,0.08,0.47,2.98,15.12,0.17,1.1

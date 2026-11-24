@@ -1,0 +1,7 @@
+# CRSP / WRDS data can't be shared, see README for how to get it
+data
+
+.venv
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,145 @@
+
+nv_test1_weighting
+                           mean     t  sharpe  CAPM alpha  t(CAPM)  FF3 alpha  t(FF3)  FF5 alpha  t(FF5)  FF6 alpha  t(FF6)  months  corr with BAB
+BAB (FP rank weights)      1.03  7.60    1.05        1.06     5.71       0.91    5.51       0.63    3.91       0.48    2.96     624           1.00
+equal weighted terciles    1.00  7.46    1.03        1.04     5.72       0.89    5.50       0.61    3.84       0.46    2.86     624           1.00
+value weighted terciles    0.55  3.51    0.49        0.68     4.08       0.53    3.36       0.25    1.65       0.15    0.90     624           0.63
+rank x market cap weights  0.51  3.38    0.47        0.63     3.85       0.47    3.13       0.18    1.21       0.08    0.50     624           0.65
+
+nv_test2_small_stock_exposure
+                                long $  short $  $ in nano caps    of which long  $ in bottom NYSE decile  $ in micro caps (< NYSE p20)  % of gross in micro caps
+BAB (FP rank weights)             1.56     0.72            1.05             0.84                     1.20                          1.46                     62.96
+value weighted terciles           1.41     0.77            0.04             0.03                     0.07                          0.12                      5.38
+rank x market cap weights         1.37     0.77            0.04             0.03                     0.06                          0.12                      5.33
+BAB without bottom NYSE decile    1.37     0.72            0.05             0.04                     0.00                          0.50                     23.51
+
+nv_test2b_holdings_by_size_decile
+              long  short
+size_decile              
+1             94.4   26.0
+2             15.8    9.7
+3              9.4    7.0
+4              7.3    5.8
+5              6.1    5.0
+6              5.2    4.3
+7              4.7    4.0
+8              4.5    3.7
+9              4.5    3.5
+10             4.3    3.4
+total        156.3   72.5
+
+nv_test3a_leg_betas
+                          beta_L ex ante  beta_L realized  beta_H ex ante  beta_H realized  BAB realized beta     t
+BAB (FP rank weights)               0.65             0.70            1.41             1.52              -0.06 -0.97
+BAB with daily OLS betas            0.52             0.76            1.28             1.50               0.28  3.46
+
+nv_test3b_ols_beta_bab
+                          mean     t  sharpe  CAPM alpha  t(CAPM)  Carhart alpha  t(Carhart)  FF6 alpha  t(FF6)  months
+BAB (FP rank weights)     1.03  7.60    1.05        1.06     5.71           0.71        4.31       0.48    2.96     624
+BAB with daily OLS betas  1.61  7.27    1.01        1.46     5.03           1.13        4.79       0.98    4.07     624
+
+nv_test3c_beta_forecasts
+                           mean  bias (3-day)  RMSE (3-day)  slope (3-day)  bias (daily)  RMSE (daily)  slope (daily)
+FP, not shrunk            0.975         0.121         0.640          0.617         0.199         0.633          0.607
+FP, shrunk                0.985         0.132         0.573          1.028         0.209         0.565          1.012
+OLS 1y daily, not shrunk  0.779        -0.074         0.580          0.622         0.004         0.527          0.640
+OLS 1y daily, shrunk      0.868         0.014         0.523          1.036         0.092         0.484          1.066
+
+nv_test3d_market_fp_beta
+                               value
+mean market FP-beta            1.046
+std                            0.094
+slope on log(vol 1y / vol 5y) -0.180
+t (NW, 60 lags)               -4.227
+R2                             0.355
+
+nv_test3e_bab_lagged_beta
+                           (1)            (2)            (3)
+intercept (%)      1.06 (5.71)    0.92 (5.24)    0.89 (5.07)
+mkt              -0.06 (-0.97)  -0.07 (-1.09)  -0.03 (-0.46)
+mkt lag 1                         0.16 (5.32)    0.17 (5.40)
+mkt lag 2                         0.11 (3.28)    0.11 (3.23)
+mkt x vol ratio                                -0.10 (-1.99)
+
+nv_test4_transaction_costs
+                                gross mean  turnover (%/yr)  cost  net mean  t(net)  % of gross lost  net FF5 alpha  t(FF5)
+BAB (FP rank weights)                 1.03           210.36  0.40      0.63    4.60            38.85           0.24    1.37
+BAB without bottom NYSE decile        0.69           206.30  0.16      0.53    3.90            23.41           0.12    0.92
+rank x market cap weights             0.51           133.36  0.06      0.45    2.98            12.10           0.12    0.78
+value weighted terciles               0.55           187.47  0.08      0.47    2.98            15.12           0.17    1.10
+
+nv_test4b_costs_gibbs_1968_2009
+                                gross mean  cost (Abdi-Ranaldo)  net mean (Abdi-Ranaldo)  net FF5 alpha (Abdi-Ranaldo)  t (Abdi-Ranaldo)  cost (Gibbs)  net mean (Gibbs)  net FF5 alpha (Gibbs)  t (Gibbs)
+BAB (FP rank weights)                 1.04                 0.45                     0.59                          0.03              0.17          0.68              0.36                  -0.19      -0.95
+BAB without bottom NYSE decile        0.71                 0.18                     0.53                         -0.05             -0.36          0.24              0.47                  -0.11      -0.78
+rank x market cap weights             0.50                 0.07                     0.43                         -0.06             -0.34          0.08              0.41                  -0.08      -0.45
+value weighted terciles               0.54                 0.09                     0.46                          0.01              0.04          0.11              0.43                  -0.02      -0.09
+
+nv_test5_bab_ff6
+           CAPM      FF3     FF5     FF6
+alpha      1.06     0.91    0.63    0.48
+         (5.71)   (5.51)  (3.91)  (2.96)
+mktrf     -0.06    -0.01    0.07    0.10
+        (-0.97)  (-0.11)  (1.24)  (2.01)
+smb                 0.03                
+                  (0.47)                
+hml                 0.37                
+                  (3.36)                
+smb5                        0.18    0.18
+                          (2.89)  (3.34)
+hml5                        0.16    0.28
+                          (1.51)  (2.70)
+rmw                         0.57    0.53
+                          (5.61)  (5.95)
+cma                         0.42    0.34
+                          (2.41)  (2.24)
+umd                                 0.21
+                                  (3.81)
+R2         0.01     0.10    0.22    0.29
+months      624      624     624     624
+
+nv_test5b_value_bab_ff6
+           CAPM      FF3      FF5      FF6
+alpha      0.68     0.53     0.25     0.15
+         (4.08)   (3.36)   (1.65)   (0.90)
+mktrf     -0.24    -0.14    -0.06    -0.04
+        (-3.79)  (-2.32)  (-1.10)  (-0.69)
+smb                -0.16                  
+                 (-2.39)                  
+hml                 0.38                  
+                  (3.21)                  
+smb5                        -0.05    -0.05
+                          (-0.63)  (-0.68)
+hml5                         0.15     0.23
+                           (1.16)   (2.06)
+rmw                          0.44     0.41
+                           (4.68)   (4.52)
+cma                          0.55     0.49
+                           (3.22)   (3.15)
+umd                                   0.16
+                                    (2.20)
+R2         0.07     0.17     0.24     0.27
+months      624      624      624      624
+
+nv_test5c_net_bab_ff6
+           CAPM      FF3     FF5     FF6
+alpha      0.66     0.52    0.24    0.09
+         (3.45)   (2.95)  (1.37)  (0.49)
+mktrf     -0.07    -0.01    0.07    0.10
+        (-1.01)  (-0.16)  (1.14)  (1.92)
+smb                 0.02                
+                  (0.39)                
+hml                 0.37                
+                  (3.44)                
+smb5                        0.17    0.17
+                          (2.73)  (3.14)
+hml5                        0.16    0.28
+                          (1.55)  (2.86)
+rmw                         0.56    0.52
+                          (5.46)  (5.68)
+cma                         0.42    0.33
+                          (2.37)  (2.20)
+umd                                 0.22
+                                  (3.84)
+R2         0.01     0.09    0.21    0.28
+months      624      624     624     624

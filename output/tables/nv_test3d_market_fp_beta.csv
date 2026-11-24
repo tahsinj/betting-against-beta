@@ -1,0 +1,6 @@
+,value
+mean market FP-beta,1.046
+std,0.094
+slope on log(vol 1y / vol 5y),-0.18
+"t (NW, 60 lags)",-4.227
+R2,0.355

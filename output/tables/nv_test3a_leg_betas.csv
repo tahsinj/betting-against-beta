@@ -1,0 +1,3 @@
+,beta_L ex ante,beta_L realized,beta_H ex ante,beta_H realized,BAB realized beta,t
+BAB (FP rank weights),0.65,0.7,1.41,1.52,-0.06,-0.97
+BAB with daily OLS betas,0.52,0.76,1.28,1.5,0.28,3.46

@@ -1,0 +1,5 @@
+,mean,bias (3-day),RMSE (3-day),slope (3-day),bias (daily),RMSE (daily),slope (daily)
+"FP, not shrunk",0.975,0.121,0.64,0.617,0.199,0.633,0.607
+"FP, shrunk",0.985,0.132,0.573,1.028,0.209,0.565,1.012
+"OLS 1y daily, not shrunk",0.779,-0.074,0.58,0.622,0.004,0.527,0.64
+"OLS 1y daily, shrunk",0.868,0.014,0.523,1.036,0.092,0.484,1.066
