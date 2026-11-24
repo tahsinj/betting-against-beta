@@ -49,6 +49,8 @@ Run the steps in order. Each one reads the output of the previous steps from `da
 | `step5_novy_marx_velikov.py` | NV tests on their sample (1968-2019) | `nv_test*` tables, figures 3, 4, 6 |
 | `step6_post_publication.py` | Before vs after FP's sample (April 2012 to 2025) | `post_*` tables, figure 5 |
 
+See `REPLICATION_NOTES.md` for what was implemented from each paper, what was left out, and our numbers next to the published ones.
+
 `helpers.py` has the sample dates, factor models and the regression / table functions.
 Tables are saved as `.csv` and `.tex` in `output/tables/`, figures as `.pdf` and `.png` in `output/figures/`.
 
